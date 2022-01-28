@@ -5,7 +5,7 @@ import BurgerButton from "./BurgerButton";
 
 const NavBar = () => {
   return (
-    <nav className="bg-indigo-100 dark:bg-gray-700">
+    <nav className="bg-indigo-100 dark:bg-zinc-900">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between">
           <div className="flex space-x-4">

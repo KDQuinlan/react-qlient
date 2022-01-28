@@ -8,6 +8,7 @@ const Button = tw.button`
 const ButtonSvg = tw.svg`
     w-6 
     h-6
+    stroke-purple-400
 `;
 
 const BurgerButton = () => {

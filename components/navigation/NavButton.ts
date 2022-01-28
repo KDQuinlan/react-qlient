@@ -6,16 +6,18 @@ export const NavTitle = tw.a`
     py-5 
     px-2 
     text-gray-700 
-    hover:text-gray-900 
-    font-bold 
-    dark:text-gray-300
+    font-bold
+    dark:text-violet-400
+    dark:hover:underline 
+    dark:hover:decoration-violet-400 decoration-2
 `;
 
 export const NavButton = tw.a`
     py-5 
     px-3 
     text-gray-700 
-    hover:text-gray-900 
     font-semibold 
-    dark:text-gray-300
+    dark:text-violet-400
+    dark:hover:underline 
+    dark:hover:decoration-violet-400 decoration-2
 `;

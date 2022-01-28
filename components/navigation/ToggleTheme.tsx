@@ -9,7 +9,7 @@ const ToggleTheme = tw.button`
     hover:bg-yellow-300 
     rounded 
     transition duration-300 
-    dark:bg-gray-800
+    dark:bg-violet-400
 `;
 
 const ThemeButton = () => {

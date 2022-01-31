@@ -1,6 +1,7 @@
 import React from "react";
 import tw from "tailwind-styled-components";
 import { useTheme } from "next-themes";
+import { BsFillCloudSunFill, BsFillMoonStarsFill } from "react-icons/bs";
 
 const ToggleTheme = tw.button`
     py-2 
@@ -20,7 +21,11 @@ const ThemeButton = () => {
         setTheme(theme === "light" ? "dark" : "light");
       }}
     >
-      {theme === "light" ? "☀️" : "🌙"}
+      {theme === "light" ? (
+        <BsFillCloudSunFill size={24} color="#f7b90c" />
+      ) : (
+        <BsFillMoonStarsFill size={24} color="#f7b90c" />
+      )}
     </ToggleTheme>
   );
 };

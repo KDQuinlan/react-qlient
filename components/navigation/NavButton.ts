@@ -5,22 +5,24 @@ export const NavTitle = tw.a`
     items-center 
     py-5 
     px-2 
-    text-pink-800
+    text-zinc-700
     font-glyphs 
     font-bold
     text-xl
+    hover:underline
+    hover:decoration-3
+    
     dark:text-violet-400
-    hover:underline 
-    dark:hover:decoration-3
 `;
 
 export const NavButton = tw.a`
     py-5 
     px-3 
-    text-pink-800
+    text-zinc-700
     font-glyphs 
     text-xl
+    hover:underline
+    hover:decoration-2
+
     dark:text-violet-400
-    hover:underline 
-    dark:hover:decoration-2
 `;

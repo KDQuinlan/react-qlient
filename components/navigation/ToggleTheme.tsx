@@ -6,8 +6,8 @@ import { BsFillCloudSunFill, BsFillMoonStarsFill } from "react-icons/bs";
 const ToggleTheme = tw.button`
     py-2 
     px-3 
-    bg-yellow-400 
-    hover:bg-yellow-300 
+    bg-pink-800
+    hover:bg-rose-400 
     rounded 
     transition duration-300 
     dark:bg-violet-400
